@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eternal Bliss Wedding Organizer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: antiquewhite;">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt="Logo" width="40"> Eternal Bliss</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+<!-- Booking Section -->
+<section id="booking" class="py-5" style="background-color: antiquewhite;">
+  <div class="container">
+    <br>
+    <h2 class="text-center mb-4">Booking Pernikahan Anda</h2>
+    <p class="text-center mb-4">
+      Merencanakan pernikahan adalah langkah besar dalam hidup Anda. Di *Eternal Bliss*, kami siap membantu Anda mewujudkan hari bahagia yang sempurna. Dengan berbagai paket layanan yang kami tawarkan, Anda dapat memilih sesuai dengan kebutuhan dan anggaran Anda.
+    </p>
+    <p class="text-center mb-4">
+      Isi formulir booking di bawah ini untuk memulai perjalanan pernikahan Anda. Tim kami akan segera menghubungi Anda untuk mendiskusikan lebih lanjut tentang detail dan ketersediaan.
+    </p>
+
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <form id="booking-form">
+          <div class="form-group">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Nomor Telepon</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Masukkan nomor telepon" required>
+          </div>
+          <div class="form-group">
+            <label for="date">Tanggal Pernikahan</label>
+            <input type="date" class="form-control" id="date" required>
+          </div>
+          <div class="form-group">
+            <label for="package">Pilih Paket</label>
+            <select class="form-control" id="package" required>
+              <option value="">-- Pilih Paket --</option>
+              <option value="basic">Paket Basic</option>
+              <option value="premium">Paket Premium</option>
+              <option value="exclusive">Paket Exclusive</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="form-group">
+          <label for="message">Pesan Tambahan</label>
+          <textarea class="form-control" id="message" rows="7" placeholder="Tulis pesan tambahan jika ada..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim Permintaan Booking</button>
+      </div>
+    </div>
+    
+    <div class="text-center mt-4">
+      <p>Anda juga dapat menghubungi kami melalui:</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">Email: info@eternalbliss.com</li>
+        <li class="list-inline-item">Telepon: (021) 5434-5678</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer py-2 text-center">
+    <div class="container">
+      <p>&copy; 2023 Eternal Bliss. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/eternalbliss" target="_blank" aria-label="Facebook">
+          <img src="image/icons/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.twitter.com/eternalbliss" target="_blank" aria-label="Twitter">
+          <img src="image/icons/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.youtube.com/eternalbliss" target="_blank" aria-label="YouTube">
+          <img src="image/icons/youtube.png" alt="YouTube">
+        </a>
+        <a href="https://www.instagram.com/eternalbliss" target="_blank" aria-label="Instagram">
+          <img src="image/icons/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://wa.me/085727876543" target="_blank" aria-label="WhatsApp">
+          <img src="image/icons/whatsapp.png" alt="WhatsApp">
+        </a>
+      </div>
+      <div class="back-to-top">
+        <a href="#" class="btn btn-info" id="back-to-top">Kembali ke Atas</a>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
